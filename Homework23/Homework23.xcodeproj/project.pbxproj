@@ -12,6 +12,8 @@
 		ABAED2812B84945F001196F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAED27F2B84945F001196F3 /* Main.storyboard */; };
 		ABAED2832B849462001196F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAED2822B849462001196F3 /* Assets.xcassets */; };
 		ABAED2862B849462001196F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAED2842B849462001196F3 /* LaunchScreen.storyboard */; };
+		ABAED28F2B84B47E001196F3 /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAED28D2B84B47E001196F3 /* TabCollectionViewCell.swift */; };
+		ABAED2902B84B47E001196F3 /* TabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAED28E2B84B47E001196F3 /* TabCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ABAED2822B849462001196F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABAED2852B849462001196F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABAED2872B849462001196F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAED28D2B84B47E001196F3 /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABAED28E2B84B47E001196F3 /* TabCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				ABAED2822B849462001196F3 /* Assets.xcassets */,
 				ABAED2842B849462001196F3 /* LaunchScreen.storyboard */,
 				ABAED2872B849462001196F3 /* Info.plist */,
+				ABAED28D2B84B47E001196F3 /* TabCollectionViewCell.swift */,
+				ABAED28E2B84B47E001196F3 /* TabCollectionViewCell.xib */,
 			);
 			path = Homework23;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAED2902B84B47E001196F3 /* TabCollectionViewCell.xib in Resources */,
 				ABAED2862B849462001196F3 /* LaunchScreen.storyboard in Resources */,
 				ABAED2832B849462001196F3 /* Assets.xcassets in Resources */,
 				ABAED2812B84945F001196F3 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				ABAED27E2B84945F001196F3 /* ViewController.swift in Sources */,
 				ABAED27A2B84945F001196F3 /* AppDelegate.swift in Sources */,
+				ABAED28F2B84B47E001196F3 /* TabCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
